@@ -1,1 +1,65 @@
+.container {
+		width: 100%;
+		overflow: hidden;
+	}
+	#navbar {
+		text-align: center;
+	}
+	
+	#navigation {
+		background-color: red;
+	}
+	
+	#navigation ul {
+	    list-style-type: none;
+		margin: 0;
+		padding: 0;
+		display: inline-block;
+		vertical-align: top; 
+	}
+	
+	#navigation ul li {
+		float: left;
+	}
+	
+	#navigation ul li a {
+		display: block;
+		padding: 10px 20px;
+		color: #fff;
+		text-decoration: none;
+	}
+	
+	#navigation ul li a:hover {
+		background-color: #000;
+	}
+	
+	#contacts {
+		font-family: 'Playfair Display', serif;
+	}
 
+	#style1 {
+		font-size: 2em;
+		color: rgb(255, 255, 255);
+		background-color: blue;
+	}
+	
+	#style2 {
+		font-size: 4em;
+		color: rgb(255, 255, 000); 
+		background-color: green;
+	}
+	
+	#style3 {
+		background-color: rgb(255,192,203)
+		text-decoration: underline;
+	}
+	
+	#style4 {
+		background-color: rgb(128,0,128);
+		text-decoration: italic;
+	}
+	#paragraph {
+		font-size: 1em;
+		width: 80%
+		background-color: rgb(64,224,208);
+	}
