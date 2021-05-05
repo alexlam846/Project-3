@@ -1,8 +1,13 @@
 function init() {
-	var el =document.getElementById('border');
-	var myjob = new google.maps.Map(document.getElementById("myjob"), {
-		center: { lat: 41.99667, lng: -87.83406};
-		zoom: 8;
+	var el = document.getElementById('border');
+	var myjob = new google.maps.LatLng(41.99667,-87.83406);
+	var mapOptions = {
+		center: myjob,
+		zoom: 18,
+		mapTypeId: google.maps.MapTypeId.SATELLITE,
+		mapTypeControlOptions: {
+			position: google.maps.ControlPosition.BOTTOM_CENTER
+		}
 	});
 }
 
