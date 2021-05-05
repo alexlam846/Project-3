@@ -63,3 +63,17 @@
 		width: 80%
 		background-color: rgb(64,224,208);
 	}
+
+	#cover {
+		width: 1000px;
+		height: 1000px;
+		background-color: #c00;
+		margin: 0 auto;
+		overflow:hidden;
+	}
+	
+	#border {
+		width: 900px;
+		height: 900px;
+		background-color: blue;
+		margin: 30px auto;
