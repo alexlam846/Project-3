@@ -50,17 +50,17 @@
 	}
 	
 	#style3 {
-		background-color: rgb(255,192,203)
+		background-color: rgb(255,192,203);
 		text-decoration: underline;
 	}
 	
 	#style4 {
 		background-color: rgb(128,0,128);
-		text-decoration: italic;
+		font-style: italic;
 	}
 	para {
 		font-size: 1em;
-		width: 80%
+		width: 80%;
 		background-color: rgb(64,224,208);
 	}
 
@@ -77,3 +77,4 @@
 		height: 900px;
 		background-color: #ccc;
 		margin: 30px auto;
+	}
